@@ -1,0 +1,14 @@
+/* - Mobile: 375px
+- Desktop: 1440px */
+body{
+    background-image: url(../images/bg-desktop.svg);
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+}
+h1{
+    height: 70px;
+    color: rgba(0, 0, 0, 0);
+    background-image: url(../images/logo.svg);
+    background-repeat: no-repeat;
+
+}
