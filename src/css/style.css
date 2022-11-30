@@ -2,7 +2,7 @@
 - Desktop: 1440px */
 body{
     background-image: url(../images/bg-desktop.svg);
-    /* background-size: cover; */
+    background-size: 1440px;
     background-repeat: no-repeat;
     background-color: var(--Primary-color);
 }
@@ -21,7 +21,7 @@ body{
     padding-top: 54px;
 }
 .min-image{
-    width: 50vw;
+    /* width: 50vw; */
     min-width: 595px;
     max-width: 709px;
 }
@@ -105,22 +105,45 @@ i{
 .fa-facebook-f{
     padding: 8px 12px;
 }
-@media(max-width: 1024px){
+@media(max-width: 992px){
     .main-contents .social-media{
         align-items: center;
         margin-right: 30px;
     }
-}
-/* @media(max-width: 1200px){
-    body{
-        background-image: url(../images/bg-mobile.svg);
-        background-size: cover;
-    }
     .container{
         flex-wrap: wrap;
-        justify-content: center;
+        align-items: center;
     }
     .section{
         align-items: center;
     }
-} */
+    .main-contents .social-media{
+        margin: 0;
+        justify-content: center;
+    }
+    body{
+        background-image: url(../images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
+@media(max-width: 768px){
+    .container{
+        padding: 10px;
+    }
+    .min-image{
+        min-width: 400px;
+    }
+    .header-images{
+        padding-left: 0;
+    }
+    .main-contents{
+        padding: 0 55px;
+    }
+}
+@media(max-width: 420px){
+    .min-image{
+        min-width: 310px;
+    }
+}
