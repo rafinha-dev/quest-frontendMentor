@@ -21,7 +21,7 @@ body{
     padding-top: 54px;
 }
 .min-image{
-    /* width: 50vw; */
+    width: 80vw;
     min-width: 595px;
     max-width: 709px;
 }
@@ -106,9 +106,10 @@ i{
     padding: 8px 12px;
 }
 @media(max-width: 992px){
-    .main-contents .social-media{
-        align-items: center;
-        margin-right: 30px;
+    body{
+        background-image: url(../images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .container{
         flex-wrap: wrap;
@@ -116,15 +117,49 @@ i{
     }
     .section{
         align-items: center;
+        justify-content: flex-start;
+        gap: 20px;
+        text-align: center;
     }
+    .main-contents h2{
+        font-size: 48px;
+        margin-top: 116px;
+    }
+    .main-contents p{
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 48px;
+    }
+    .main-contents .btn{
+        width: 400px;
+        height: 80px;
+        border-radius: 40px;
+        font-size: 25px;
+    } 
     .main-contents .social-media{
         margin: 0;
         justify-content: center;
+        gap: 15px;
+        height: 220px;
     }
-    body{
-        background-image: url(../images/bg-mobile.svg);
-        background-repeat: no-repeat;
-        background-size: cover;
+    .fa-twitter , .fa-facebook-f , .fa-instagram{
+        width: 58px;
+        height: 58px;
+        font-size: 28px;
+        padding: 18px 5px 15px 18px;
+        
+    }
+    .fa-facebook-f{
+        padding: 15px 10px 10px 20px;
+    }
+    .fa-twitter{
+        font-size: 25px;
+        padding-top: 15px;
+        padding-right: 18px;
+    }
+    .fa-instagram{
+        padding: 13px 15px;
+        font-size: 30px;
     }
 
 }
@@ -132,12 +167,19 @@ i{
     .container{
         padding: 10px;
     }
+    .header-images{
+        padding-left: 0px;
+        padding-top: 55px;
+    }
+    .header-images .title{
+        padding-bottom: 90px;
+        height: 60px;
+        width: 250px;
+    }
     .min-image{
         min-width: 400px;
     }
-    .header-images{
-        padding-left: 0;
-    }
+    
     .main-contents{
         padding: 0 55px;
     }
