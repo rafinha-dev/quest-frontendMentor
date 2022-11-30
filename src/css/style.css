@@ -184,8 +184,25 @@ i{
         padding: 0 55px;
     }
 }
-@media(max-width: 420px){
+@media(max-width: 660px){
+    .main-contents .social-media{
+        height: 80px;
+        margin-top: 200px;
+    }
+}
+@media(max-width: 426px){
+    .container{
+        padding: 15px;
+    }
     .min-image{
         min-width: 310px;
+    }
+    .main-contents .btn{
+        width: 300px;
+        height: 50px;
+    }
+    .main-contents .social-media{
+        height: 80px;
+        margin-top: 340px;
     }
 }
