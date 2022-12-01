@@ -29,38 +29,45 @@
     <link rel="stylesheet" href="./src/css/reset.css" />
     <link rel="stylesheet" href="./src/css/variables.css" />
     <link rel="stylesheet" href="./src/css/style.css" />
+    <!-- por que colocar as midia queries no responsive não funciona ? -->
+    <link rel="stylesheet" href=".src/css/responsive.css" />
     <title>
       Frontend Mentor | Huddle landing page with single introductory section
     </title>
 
-    <!-- <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style> -->
+ 
   </head>
   <body>
+
+    <!-- first section -->
     <div class="container">
       <header class="header-images">
         <h1 class="title">Huddle</h1>
-        <!-- <img src="./src/images/logo.svg" alt="logo escrito huddle"> -->
         <div class="min-image">
-        <img
-          class="windows"
-          src="./src/images/illustration-mockups.svg"
-          alt="ilustração de páginas de navegador em mobile e desktop"
-        />
-      </div>
+          <img
+            class="windows-mockups"
+            src="./src/images/illustration-mockups.svg"
+            alt="ilustração de páginas de navegador em mobile e desktop"
+          />
+        </div>
       </header>
+
+      <!-- second section -->
       <main class="main-contents">
-        <div class="section">
-        <h2>Build The Community <br> Your Fans Will Love</h2>
-        <p>
-          Huddle re-imagines the way we build Communities. You have a voice,
-          but so does your audience. Create connections with your users as you
-          engage in genuine discussion.
-        </p>
-        <button class="btn">Register</button>
-      </div>
+        <section class="section">
+          <h2>
+            Build The Community <br />
+            Your Fans Will Love
+          </h2>
+          <p>
+            Huddle re-imagines the way we build Communities. You have a voice,
+            but so does your audience. Create connections with your users as you
+            engage in genuine discussion.
+          </p>
+          <button class="btn">Register</button>
+        </section>
+
+        <!-- social media links  -->
         <footer class="social-media">
           <i class="fab fa-facebook-f"></i>
           <i class="fab fa-twitter"></i>
@@ -69,11 +76,5 @@
       </main>
     </div>
 
-    <!-- <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer> -->
   </body>
 </html>

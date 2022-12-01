@@ -3,6 +3,45 @@
     --Primary-color: #674baf;
     --Soft-Magenta: #e882e8;
 
+    --background-w: 1440px;
+    --container-w: 100vh;
+
+    --title-w: 218px;
+    --title-h: 50px;
+    --title-mobile-h: 60px;
+    --title-mobile-w: 250px;
+    --title-color: #00000000;
+
+    --section-image-big-maxw: 709px;
+    --section-image-big-minw: 595px; 
+    --section-image-mediun-minw: 400px;
+    --section-image-small-minw: 310px;
+    --image-width: 100%;
+
+    --title2-desktop-fs: 40px;
+    --title2-mobile-fs: 48px;
+
+    --p-desktop-fs: 18px;
+    --p-mobile-fs: 32px;
+    --p-desktop-lh: 26px;
+    --p-mobile-lh: 48px;
+
+    --btn-desktop-w: 200px;
+    --btn-desktop-h: 58px;
+    --btn-desktop-br: 30px;
+    --btn-fs: 18px;
+    --btn-color: #674bafe8;
+    --btn-medium-w: 400px;
+    --btn-medium-h: 80px;
+    --btn-medium-br: 40px;
+    --btn-medium-fs: 25px;
+    --btn-small-w: 300px;
+    --btn-small-h: 50px;
+
+    --icons-desktop-wh: 40px;
+    --icons-desktop-fs: 22px;
+    --icons-mobile-wh: 58px;
+    --icons-mobile-fs: 28px;
 }
 
 
