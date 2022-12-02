@@ -1,15 +1,26 @@
 :root{
 
     --Primary-color: #674baf;
+    --Soft-primary: #674bafe8;
     --Soft-Magenta: #e882e8;
+    --Transparent: #00000000;
 
     --max-w: 1440px;
 
-    --title-color: #00000000;
     --title-big-w: 218px;
     --title-big-h: 50px;
 
     --img-w: 100%;
     --image-big-minw: 595px;
     --image-big-maxw: 709px;
+
+    --title2-big-fs: 40px;
+
+    --main-p-big-fs: 18px;
+    --main-p-big-lh: 26px;
+
+    --btn-big-fs: 18px;
+    --btn-big-br: 30px;
+    --btn-big-w: 200px;
+    --btn-big-h: 58px;
 }
