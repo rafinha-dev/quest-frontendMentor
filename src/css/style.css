@@ -13,6 +13,7 @@ body{
 }
 
 /* === FIRST SECTION ==== */
+
 .header-images{
     display: flex;
     flex-direction: column;
@@ -49,7 +50,7 @@ body{
 .main-contents{
     display: grid;
     grid-template-rows: 700px 1fr;
-    grid-template-columns: minmax(300px 526px );
+    grid-template-columns: minmax(300px, 526px );
 
     flex-direction: column;
     padding: 0px 80px 0px 55px ;
@@ -127,6 +128,10 @@ body{
         align-items: center;
     }
 
+    .main-contents{
+        padding: 0 55px;
+        grid-template-rows: 450px 1fr;
+    }
 /* === SECOND SECTION === */
 
     .section{
@@ -153,11 +158,12 @@ body{
 
     /*  ==== FOOTER ==== */
 
-    .footer .social-media{
+    .main-contents .footer .social-media{
         margin: 0;
         justify-content: center;
         gap: 15px;
-        height: 220px;
+        
+        
     }
     .fa-twitter , .fa-facebook-f , .fa-instagram{
         width: 58px;
@@ -197,14 +203,15 @@ body{
         min-width: 400px;
     }
     
-    .main-contents{
-        padding: 0 55px;
-    }
+    
 }
 @media(max-width: 660px){
     .main-contents .social-media{
         height: 80px;
         margin-top: 200px;
+    }
+    .main-contents{
+        grid-template-rows: 600px 1fr;
     }
 }
 @media(max-width: 426px){
