@@ -1,7 +1,7 @@
 /*  ==== GLOBAL ==== */
 body{
     background-image: url(../images/bg-desktop.svg);
-    background-size: var(--max-w);
+    /* background-size: var(--max-w); */
     background-repeat: no-repeat;
     background-color: var(--Primary-color);
 }
@@ -97,6 +97,7 @@ body{
     justify-content: flex-end;
     align-items: center;
     gap: 16px;
+    height: 80px;
     
 }
 .fa-instagram, .fa-twitter, .fa-facebook-f{
