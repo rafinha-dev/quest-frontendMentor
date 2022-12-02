@@ -1,10 +1,14 @@
 <div align="center">
 
-# quest-frontendMentor
+# 🚀🚀 quest-frontendMentor 🚀🚀
 provinha do curso dev quest de html e css , se você é o mentor dê uma olhada na lista de dúvidas que tive ao fazer o projeto : 
 
 
-[listinha](https://github.com/rafinha-dev/quest-frontendMentor/blob/master/src/analize/README.md)
+[listinha](https://github.com/rafinha-dev/quest-frontendMentor/blob/master/src/analize/README.md) ✔️✔️
+
+<a href="https://rafinha-dev.github.io/quest-frontendMentor/"><img src="https://github.com/rafinha-dev/quest-frontendMentor/blob/master/src/images/favicon-32x32.png"></img></a>
+
+`Site hospedado link na logo` 
 
 </div>
 
@@ -26,3 +30,13 @@ Espero que tenha cumprido com o resultado esperado.
 | ![](https://github.com/rafinha-dev/quest-frontendMentor/blob/master/src/design/desktop-design.jpg) | ![](https://github.com/rafinha-dev/quest-frontendMentor/blob/master/src/design/responsiveViewer/1440x642.png) |
 | desafio proposto 750 width | meu resultado 750 |
 | ![](https://github.com/rafinha-dev/quest-frontendMentor/blob/master/src/design/mobile-design.jpg) | ![](https://github.com/rafinha-dev/quest-frontendMentor/blob/master/src/design/responsiveViewer/750x642.png)
+
+Author
+
+Frontend Mentor : @RafaelContact
+
+[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafinhadev/)
+
+[![instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/rafinhadev/)&nbsp;
+
+[contactrodrigues21@gmail.com](mailto:contactrodrigues21@gmail.com) 📫
