@@ -1,33 +1,24 @@
-/* - Mobile: 375px
-- Desktop: 1440px */
+/*  ==== GLOBAL ==== */
 body{
     background-image: url(../images/bg-desktop.svg);
-    background-size: 1440px;
+    background-size: var(--max-w);
     background-repeat: no-repeat;
     background-color: var(--Primary-color);
 }
 .container{
     display: flex;
-    height: 100vh;
     justify-content: center;
-    max-width: 1440px;
+    height: 100vh;
+    max-width: var(--max-w);
 }
 
+/* === FIRST SECTION ==== */
 .header-images{
     display: flex;
     flex-direction: column;
-    /* justify-content: center;   */
+
     padding-left: 70px;  
     padding-top: 54px;
-}
-.min-image{
-    width: 80vw;
-    min-width: 595px;
-    max-width: 709px;
-}
-.header-images .windows{
-    margin-top: 20px;
-    width: 100%;
 }
 .header-images .title{
     height: 50px;
@@ -41,35 +32,49 @@ body{
 
 }
 
+/*  ==== IMAGE CONTAINER ==== */
+.min-image{
+    width: 80vw;
+    min-width: 595px;
+    max-width: 709px;
+}
+
+.header-images .windows{
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* ==== SECOND SECTION ==== */
+
 .main-contents{
     display: grid;
     grid-template-rows: 700px 1fr;
     grid-template-columns: minmax(300px 526px );
+
     flex-direction: column;
-    /* position: relative; */
     padding: 0px 80px 0px 55px ;
 }
 .section{
     display: flex;
-    /* margin-top: 110px; */
+    
     flex-direction: column;
     justify-content: center;
     height: 100%;
     gap: 10px;
 }
-.main-contents h2{
+.main-contents .section h2{
     font-size: 40px;
     margin: 78px 0 10px 0;
 }
-.main-contents p{
+.main-contents .section p{
     font-size: 18px;
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
     line-height: 26px;
     margin: 0px 0 5px 0 ;
 }
-.main-contents .btn{
-    /* margin-top: 30px; */
+.main-contents .section .btn{
+    
     width: 200px;
     height: 58px;
     border-radius: 30px;
@@ -81,15 +86,16 @@ body{
 
     margin-top: 20px;
 }
+/*  ====  FOOTER  ==== */
 
-.main-contents .social-media{
+.footer .social-media{
     display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 16px;
     
 }
-i{
+.fa-instagram, .fa-twitter, .fa-facebook-f{
     font-size: 22px;
     width: 40px;
     height: 40px;
@@ -105,7 +111,12 @@ i{
 .fa-facebook-f{
     padding: 8px 12px;
 }
+
+
 @media(max-width: 992px){
+
+/*  ==== GLOBAL ==== */
+
     body{
         background-image: url(../images/bg-mobile.svg);
         background-repeat: no-repeat;
@@ -115,28 +126,34 @@ i{
         flex-wrap: wrap;
         align-items: center;
     }
+
+/* === SECOND SECTION === */
+
     .section{
         align-items: center;
         justify-content: flex-start;
         gap: 20px;
         text-align: center;
     }
-    .main-contents h2{
+    .section h2{
         font-size: 48px;
         margin-top: 116px;
     }
-    .main-contents p{
+    .section p{
         font-size: 32px;
         font-weight: 400;
         line-height: 48px;
     }
-    .main-contents .btn{
+    .section .btn{
         width: 400px;
         height: 80px;
         border-radius: 40px;
         font-size: 25px;
     } 
-    .main-contents .social-media{
+
+    /*  ==== FOOTER ==== */
+
+    .footer .social-media{
         margin: 0;
         justify-content: center;
         gap: 15px;
