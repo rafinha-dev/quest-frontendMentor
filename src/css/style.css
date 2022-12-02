@@ -100,17 +100,18 @@ body{
     
 }
 .fa-instagram, .fa-twitter, .fa-facebook-f{
-    font-size: 22px;
-    width: 40px;
-    height: 40px;
-    border: 2px solid rgba(255, 255, 255, 0.8);
-    color: rgba(255, 255, 255, 0.8) ;
+    width: var(--icons-big-wh);
+    height: var(--icons-big-wh);
+    border-radius: var(--circle-br);
+    border: 2px solid var(--White-transparant);
+    color: var(--White-transparant);
     padding: 8px;
-    border-radius: 50%;
+}
+.fa-instagram{
+    font-size: var(--instagram-big-fs);
 }
 .fa-twitter, .fa-facebook-f{
-    font-size: 18px;
-    padding: 8px 9px ;
+    font-size: var(--icons-big-fs);
 }
 .fa-facebook-f{
     padding: 8px 12px;

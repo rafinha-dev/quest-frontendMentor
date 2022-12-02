@@ -4,6 +4,7 @@
     --Soft-primary: #674bafe8;
     --Soft-Magenta: #e882e8;
     --Transparent: #00000000;
+    --White-transparant: #ffffffcc ;
 
     --max-w: 1440px;
 
@@ -23,4 +24,9 @@
     --btn-big-br: 30px;
     --btn-big-w: 200px;
     --btn-big-h: 58px;
+
+    --icons-big-wh: 40px;
+    --icons-big-fs: 18px;
+    --instagram-big-fs: 22px;
+    --circle-br:  50%;
 }
