@@ -51,7 +51,7 @@ body{
 
 .main-contents{
     display: grid;
-    grid-template-rows: 700px 1fr;
+    grid-template-rows: var(--main-big-grid-1section) auto;
     /* grid-template-columns: minmax(300px, 526px ); */
 
     padding: 0px 80px 0px 55px ;
@@ -134,30 +134,31 @@ body{
 
     .main-contents{
         padding: 0 55px;
-        grid-template-rows: 450px 1fr;
+        grid-template-rows: var(--main-medium-grid-1section) 1fr;
+        /* por que não funciona o min max ?  */
     }
 /* === SECOND SECTION === */
 
     .section{
         align-items: center;
         justify-content: flex-start;
-        gap: 20px;
         text-align: center;
+        gap: 20px;
     }
     .section h2{
-        font-size: 48px;
+        font-size: var(--title2-small-fs);
         margin-top: 116px;
     }
     .section p{
-        font-size: 32px;
+        font-size: var(--main-p-small-fs );
+        line-height: var(--main-p-small-lh);
         font-weight: 400;
-        line-height: 48px;
     }
     .section .btn{
-        width: 400px;
-        height: 80px;
-        border-radius: 40px;
-        font-size: 25px;
+        width: var(--btn-small-w);
+        height: var(--btn-small-h);
+        border-radius: var(--btn-small-br);
+        font-size: var(--btn-small-fs);
     } 
 
     /*  ==== FOOTER ==== */
@@ -170,20 +171,17 @@ body{
         
     }
     .fa-twitter , .fa-facebook-f , .fa-instagram{
-        width: 58px;
-        height: 58px;
-        font-size: 28px;
-        padding: 18px 5px 15px 18px;
-        
-        
+        width: var(--icons-small-wh);
+        height: var(--icons-small-wh);
+        font-size: var(--icons-small-fs);
+          
     }
     .fa-facebook-f{
         padding: 15px 10px 10px 20px;
     }
     .fa-twitter{
         font-size: 25px;
-        padding-top: 15px;
-        padding-right: 18px;
+        padding: 15px 18px 0 16px;
     }
     .fa-instagram{
         padding: 13px 15px;
@@ -216,7 +214,7 @@ body{
         margin-top: 200px;
     }
     .main-contents{
-        grid-template-rows: 600px 1fr;
+        grid-template-rows: var(--main-small-grid-1section) auto;
         /* teria como alinhar esse elemento com flex embaixo ?  */
     }
 }

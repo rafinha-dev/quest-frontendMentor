@@ -8,6 +8,9 @@
 
     --max-w: 1440px;
 
+    --main-big-grid-1section: 700px;
+    --main-medium-grid-1section: 450px;
+    --main-small-grid-1section: 640px;
     --title-big-w: 218px;
     --title-big-h: 50px;
 
@@ -16,17 +19,26 @@
     --image-big-maxw: 709px;
 
     --title2-big-fs: 40px;
+    --title2-small-fs: 48px;
 
     --main-p-big-fs: 18px;
+    --main-p-small-fs: 32px;
     --main-p-big-lh: 26px;
+    --main-p-small-lh: 48px;
 
     --btn-big-fs: 18px;
+    --btn-small-fs: 25px;
     --btn-big-br: 30px;
+    --btn-small-br: 40px;
     --btn-big-w: 200px;
+    --btn-small-w: 400px;
     --btn-big-h: 58px;
+    --btn-small-h: 80px;
 
     --icons-big-wh: 40px;
+    --icons-small-wh: 58px;
     --icons-big-fs: 18px;
+    --icons-small-fs: 28px;
     --instagram-big-fs: 22px;
     --circle-br:  50%;
 }
