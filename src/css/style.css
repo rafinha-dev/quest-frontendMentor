@@ -90,6 +90,10 @@ body{
 
     margin-top: 20px;
 }
+.section .btn:hover{
+    background-color: var(--Soft-Magenta);
+    color: var(--White-transparant);
+}
 /*  ====  FOOTER  ==== */
 
 .footer .social-media{
@@ -107,6 +111,10 @@ body{
     border: 2px solid var(--White-transparant);
     color: var(--White-transparant);
     padding: 8px;
+}
+.fa-instagram:hover, .fa-twitter:hover, .fa-facebook-f:hover {
+    color: var(--Soft-Magenta);
+    border-color: var(--Soft-Magenta);
 }
 .fa-instagram{
     font-size: var(--instagram-big-fs);
