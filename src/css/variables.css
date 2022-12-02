@@ -13,6 +13,8 @@
     --main-small-grid-1section: 640px;
     --title-big-w: 218px;
     --title-big-h: 50px;
+    --title-small-w: 250px;
+    --title-small-h:  60px;
 
     --img-w: 100%;
     --image-big-minw: 595px;
@@ -40,5 +42,7 @@
     --icons-big-fs: 18px;
     --icons-small-fs: 28px;
     --instagram-big-fs: 22px;
+    --instagram-small-fs: 30px;
+    --twiter-small-fs: 25px;
     --circle-br:  50%;
 }

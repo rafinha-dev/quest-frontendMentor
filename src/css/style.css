@@ -180,12 +180,12 @@ body{
         padding: 15px 10px 10px 20px;
     }
     .fa-twitter{
-        font-size: 25px;
+        font-size: var( --twiter-small-fs);
         padding: 15px 18px 0 16px;
     }
     .fa-instagram{
+        font-size: var(--instagram-small-fs);
         padding: 13px 15px;
-        font-size: 30px;
     }
 
 }
@@ -194,13 +194,13 @@ body{
         padding: 10px;
     }
     .header-images{
-        padding-left: 0px;
-        padding-top: 55px;
+        padding: 55px 0px 0px 0px;
     }
     .header-images .title{
+        height: var(--title-small-h);
+        width: var(--title-small-w);
+        
         padding-bottom: 90px;
-        height: 60px;
-        width: 250px;
     }
     .min-image{
         min-width: 400px;
