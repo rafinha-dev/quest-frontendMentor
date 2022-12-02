@@ -9,8 +9,9 @@
     --max-w: 1440px;
 
     --main-big-grid-1section: 700px;
-    --main-medium-grid-1section: 450px;
-    --main-small-grid-1section: 640px;
+    --main-medium-grid-1section: 750px;
+    --main-small-grid-1section: 900px;
+    --main-verysmall-grid-1section: 1050px;
     --title-big-w: 218px;
     --title-big-h: 50px;
     --title-small-w: 250px;
