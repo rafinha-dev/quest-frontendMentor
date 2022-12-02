@@ -22,27 +22,29 @@ body{
     padding-top: 54px;
 }
 .header-images .title{
-    height: 50px;
-    width: 218px;
-    color: rgba(0, 0, 0, 0);
     background-image: url(../images/logo.svg);
-
     background-repeat: no-repeat;
-    margin-bottom: 70px;
     background-size: 100% ;
+
+    color: var(--title-color);
+    height: var(--title-big-h);
+    width: var(--title-big-w);
+
+    margin-bottom: 70px;
 
 }
 
 /*  ==== IMAGE CONTAINER ==== */
 .min-image{
     width: 80vw;
-    min-width: 595px;
-    max-width: 709px;
+    min-width: var(--image-big-minw);
+    max-width: var(--image-big-maxw);
 }
 
 .header-images .windows{
+    width: var(--img-w);
+
     margin-top: 20px;
-    width: 100%;
 }
 
 /* ==== SECOND SECTION ==== */
@@ -114,7 +116,7 @@ body{
 }
 
 
-@media(max-width: 992px){
+@media(max-width: 1024px){
 
 /*  ==== GLOBAL ==== */
 
@@ -162,7 +164,7 @@ body{
         margin: 0;
         justify-content: center;
         gap: 15px;
-        
+        /* por que a posição destes elementos variaram quando coloquei o main-contents no lugar da class footer se posicionaram maix abaixo, mesmo depois de eu verificar questões relativas ao tamanho do  row no grid não entendi. */
         
     }
     .fa-twitter , .fa-facebook-f , .fa-instagram{
@@ -170,6 +172,7 @@ body{
         height: 58px;
         font-size: 28px;
         padding: 18px 5px 15px 18px;
+        
         
     }
     .fa-facebook-f{
@@ -212,6 +215,7 @@ body{
     }
     .main-contents{
         grid-template-rows: 600px 1fr;
+        /* teria como alinhar esse elemento com flex embaixo ?  */
     }
 }
 @media(max-width: 426px){

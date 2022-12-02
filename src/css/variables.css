@@ -4,4 +4,12 @@
     --Soft-Magenta: #e882e8;
 
     --max-w: 1440px;
+
+    --title-color: #00000000;
+    --title-big-w: 218px;
+    --title-big-h: 50px;
+
+    --img-w: 100%;
+    --image-big-minw: 595px;
+    --image-big-maxw: 709px;
 }
