@@ -1,10 +1,7 @@
 <div align="center">
 
 # 🚀🚀 quest-frontendMentor 🚀🚀
-provinha do curso dev quest de html e css , se você é o mentor dê uma olhada na lista de dúvidas que tive ao fazer o projeto : 
-
-
-[listinha](https://github.com/rafinha-dev/quest-frontendMentor/blob/master/src/analize/README.md) ✔️✔️
+provinha do curso dev quest de html e css 
 
 <a href="https://rafinha-dev.github.io/quest-frontendMentor/"><img src="https://github.com/rafinha-dev/quest-frontendMentor/blob/master/src/images/favicon-32x32.png"></img></a>
 
@@ -31,7 +28,11 @@ Espero que tenha cumprido com o resultado esperado.
 | desafio proposto 750 width | meu resultado 750 |
 | ![](https://github.com/rafinha-dev/quest-frontendMentor/blob/master/src/design/mobile-design.jpg) | ![](https://github.com/rafinha-dev/quest-frontendMentor/blob/master/src/design/responsiveViewer/750x642.png)
 
-Author
+Duvidas que tive ao fazer o projeto:  
+
+[listinha](https://github.com/rafinha-dev/quest-frontendMentor/blob/master/src/analize/README.md) ✔️✔️
+
+## Author
 
 Frontend Mentor : @RafaelContact
 
